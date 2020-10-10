@@ -8,14 +8,17 @@
 
 nav {
     font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-bottom: 50px;
 }
 
-footer {
+
+
+.footer {
     background-color: gray;
     position: absolute;
     left: 0;
     bottom: 0;
-    height: 75px;
+    height: 50px;
     width: 100%;
 }
 
@@ -23,4 +26,8 @@ body {
     background: url(https://cdn.pixabay.com/photo/2016/11/29/05/45/astronomy-1867616__340.jpg)
     no-repeat center fixed;
     background-size: cover;
+}
+
+meta {
+    display: none;
 }
